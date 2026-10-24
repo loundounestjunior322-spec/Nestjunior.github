@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nest Junior Loundou | Portfolio - Génie Industriel & Logistique</title>
+  <meta name="description" content="Étudiant en cycle préparatoire Génie Industriel & Logistique à HESTIM (Casablanca). Qualité, supply chain, Industrie 4.0. Recherche de stage.">
+  <meta name="theme-color" content="#0f1d2e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#accueil" class="logo">NJ.Loundou</a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    <nav id="menu">
+      <a href="#accueil" data-i18n="nav_home">Accueil</a>
+      <a href="#apropos" data-i18n="nav_about">À propos</a>
+      <a href="#parcours" data-i18n="nav_path">Parcours</a>
+      <a href="#competences" data-i18n="nav_skills">Compétences</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+      <button class="lang" id="lang" aria-label="Changer de langue">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-text">
+        <p class="status"><span class="dot"></span><span data-i18n="status">Étudiant en Cycle Prépa - HESTIM</span></p>
+        <h1><span class="line">Nest Junior</span><span class="line">LOUNDOU</span></h1>
+        <p class="role" data-i18n="role">Futur Ingénieur en Génie Industriel & Logistique | Passionné par l'Optimisation, la Qualité et l'Industrie 4.0</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact" data-i18n="cta_contact">Me Contacter</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/nest-junior-loundou-056929442" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 480 400" class="route">
+          <path id="route" d="M390 330 C 330 250, 120 300, 130 190 S 220 90, 300 70" fill="none"/>
+          <path class="route-bg" d="M390 330 C 330 250, 120 300, 130 190 S 220 90, 300 70" fill="none"/>
+          <path class="route-line" d="M390 330 C 330 250, 120 300, 130 190" fill="none"/>
+          <path class="route-next" d="M130 190 S 220 90, 300 70" fill="none"/>
+          <g class="node n1"><circle r="18" class="pulse" cx="390" cy="330"/><circle r="8" cx="390" cy="330"/><text x="390" y="368" text-anchor="middle">Moanda · Gabon</text></g>
+          <g class="node n2"><circle r="18" class="pulse" cx="130" cy="190"/><circle r="8" cx="130" cy="190"/><text x="130" y="162" text-anchor="middle">Casablanca · Maroc</text></g>
+          <g class="node n3"><circle r="8" cx="300" cy="70" class="hollow"/><text x="300" y="46" text-anchor="middle" data-i18n="next">Prochaine étape</text></g>
+          <rect class="packet" width="14" height="14" rx="2" x="-7" y="-7">
+            <animateMotion dur="7s" begin="2.2s" repeatCount="indefinite" rotate="auto"><mpath href="#route"/></animateMotion>
+          </rect>
+        </svg>
+        <p class="caption"><strong data-i18n="cap_t">Supply Chain & Qualité</strong><span data-i18n="cap_d">Amélioration continue et maîtrise des flux industriels.</span></p>
+      </div>
+      <a href="#apropos" class="scroll" aria-label="Défiler"><span></span></a>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="wrap narrow">
+        <h2 class="reveal" data-i18n="about_t">À Propos</h2>
+        <p class="lead reveal" data-i18n-html="about_1">Actuellement en première année du cycle préparatoire en <strong>Génie Industriel et Logistique à HESTIM (Casablanca)</strong>, je combine une solide formation technique de base et une expérience pratique en contrôle qualité agroalimentaire.</p>
+        <p class="reveal" data-i18n="about_2">Après une première année en génie biomédical, j'ai choisi de me réorienter vers ma vraie passion : le génie industriel. Mon objectif est de concevoir, analyser et optimiser les chaînes de production et logistiques pour relever les défis industriels de demain.</p>
+      </div>
+    </section>
+
+    <section id="parcours" class="section alt">
+      <div class="wrap narrow">
+        <h2 class="reveal" data-i18n="path_t">Mon Parcours</h2>
+        <ol class="timeline" id="timeline">
+          <li class="reveal">
+            <time data-i18n="d1">Septembre 2026 - Présent</time>
+            <h3 data-i18n="t1">Cycle Préparatoire - Génie Industriel & Logistique</h3>
+            <p data-i18n="p1">HESTIM, Casablanca, Maroc.</p>
+          </li>
+          <li class="reveal">
+            <time data-i18n="d2">2 juin - 17 août 2026</time>
+            <h3 data-i18n="t2">Opérateur machine à coudre - Sacs de sucre de 50 kg</h3>
+            <p data-i18n="p2">SUCAF Gabon, Moanda (Section séchage et conditionnement).</p>
+          </li>
+          <li class="reveal">
+            <time data-i18n="d4">2025 - 2026</time>
+            <h3 data-i18n="t4">Licence 1 - Génie Biomédical</h3>
+            <p data-i18n="p4">Une année qui m'a confirmé mon envie de me réorienter vers le Génie Industriel.</p>
+          </li>
+          <li class="reveal">
+            <time data-i18n="d3">Juin 2025</time>
+            <h3 data-i18n="t3">Baccalauréat Professionnel Contrôle Qualité Agroalimentaire</h3>
+            <p data-i18n="p3">Obtenu avec une moyenne de 13.90/20.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <div class="wrap">
+        <h2 class="reveal" data-i18n="sk_t">Mes Compétences</h2>
+        <div class="skills">
+          <article class="skill reveal">
+            <h3 data-i18n="s1">Industrie & Logistique</h3>
+            <ul class="chips">
+              <li data-i18n="s1a">Contrôle qualité</li><li data-i18n="s1b">Gestion des flux</li><li data-i18n="s1c">Optimisation de production</li><li data-i18n="s1d">Métrologie</li>
+            </ul>
+          </article>
+          <article class="skill reveal">
+            <h3 data-i18n="s2">Outils & Logiciels</h3>
+            <ul class="chips">
+              <li>SolidWorks</li><li>FreeCAD</li><li>Blender</li><li>VS Code</li><li data-i18n="s2a">Excel (formules avancées SI/ET)</li>
+            </ul>
+          </article>
+          <article class="skill reveal">
+            <h3 data-i18n="s3">Développement</h3>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <p class="note" data-i18n="s3n">Création de portfolios et interfaces web modernes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section dark">
+      <div class="wrap narrow">
+        <h2 class="reveal" data-i18n="ct_t">Restons en Contact</h2>
+        <p class="lead reveal" data-i18n="ct_p">Vous souhaitez échanger sur un projet ou une opportunité de stage ? Écrivez-moi ou rejoignez-moi directement :</p>
+        <a class="mail reveal" href="mailto:loundounestjunior322@gmail.com">loundounestjunior322@gmail.com</a>
+        <div class="actions reveal">
+          <a class="btn primary" href="mailto:loundounestjunior322@gmail.com" data-i18n="ct_mail">Envoyer un E-mail</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/nest-junior-loundou-056929442" target="_blank" rel="noopener" data-i18n="ct_in">Profil LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© <span id="year">2026</span> Nest Junior LOUNDOU. <span data-i18n="rights">Tous droits réservés.</span></p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
